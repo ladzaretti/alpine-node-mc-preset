@@ -1,27 +1,12 @@
 {
-  /*"baseBranches": [
-    "dev",
-    "main"
-  ],*/
-  "lockFileMaintenance": { "enabled": true },
- /* "packageRules": [
+  //"extends": [],
+  "dependencyDashboard": true,
+  "enabledManagers": ["npm,maven,pypi"],
+  "separateMajorMinor": false,
+  "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor"
-      ],
-      "groupName": "all minor dependencies"
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "groupName": "all deps"
     }
-   {
-      "matchDatasources": [
-        "npm"
-      ],
-      "registryUrls": [
-        "https://index.docker.io"
-      ]
-    }
-  ],*/
-  "dependencyDashboard": true
+  ]
 }
