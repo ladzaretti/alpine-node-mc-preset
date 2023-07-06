@@ -1,7 +1,7 @@
 {
   //"extends": [],
   "dependencyDashboard": true,
-  "enabledManagers": ["npm,maven,pypi"],
+  "enabledManagers": ["npm","maven","pypi"],
   "separateMajorMinor": false,
   "packageRules": [
     {
