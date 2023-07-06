@@ -1,5 +1,6 @@
 {
   //"extends": [],
+  "ignorePresets": ["mergeConfidence:default"],
   "dependencyDashboard": true,
   "enabledManagers": ["npm","maven","pip_requirements"],
   "separateMajorMinor": false,
