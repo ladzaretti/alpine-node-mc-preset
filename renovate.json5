@@ -1,5 +1,5 @@
 {
-  "extends": ["mergeConfidence:age-confidence-badges"],
+  //"extends": ["mergeConfidence:age-confidence-badges"],
   //"ignorePresets": ["mergeConfidence:default"],
   "dependencyDashboard": true,
   "enabledManagers": ["npm","maven","pip_requirements"],
