@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchConfidence": ["high"],
-      "matchDatasource": ["npm"],
+      "matchDatasources": ["npm"],
       //"matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all deps"
     }
